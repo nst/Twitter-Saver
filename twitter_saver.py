@@ -20,6 +20,7 @@ def user_statuses_count(username):
     try:
         lines = urllib2.urlopen(theurl).readlines()
     except Exception, e:
+        print e
         return 0
     
     return int(json.loads(''.join(lines))['statuses_count'])
