@@ -1,3 +1,11 @@
 "Because you never know."
 
-TODO: handle anthentication for the ones who need to save their protected statuses.
+Usage:
+
+    $ python twitter_saver.py <username> [<login> <password>]
+
+Examples:
+
+    $ python twitter_saver.py nst021
+    $ python twitter_saver.py nst021 toto xxxxxxxx
+
